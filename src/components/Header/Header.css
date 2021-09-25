@@ -1,0 +1,37 @@
+header{
+    background-image: url(https://www.chem-map.com/wp-content/uploads/2019/03/iStock-1018336186-2000px.jpg);
+}
+nav{
+    background-color: rgba(0, 38, 255, 0.5);
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.logo{
+    margin-left: 20px;
+}
+.logo img{
+    
+    height: 80px;
+}
+.nav-links{
+    margin: auto;
+}
+.nav-links a{
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+    margin-right: 30px;
+    font-size: 24px;
+}
+.nav-links a:hover{
+    color: blue;
+}
+.heading{
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(0, 0, 255, 0.2);
+    margin: auto;
+    width: 85%;
+    border-radius: 5px;
+    color: rgba(255, 248, 220, 0.801);
+}
