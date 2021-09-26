@@ -1,8 +1,13 @@
 import React from 'react';
+//import react icons
 import { FaShoppingCart, FaFacebook, FaTwitter } from 'react-icons/fa';
-import './Scientist.css'
+import './Scientist.css';
+
+//display scientist info by props
 const Scientist = (props) => {
-    const {name,education,university,age,salary,img}=props.scientist
+
+    const {name,education,university,age,salary,img}=props.scientist;
+
     return (
         <div className="single-sci">
             <div className="sci-img">

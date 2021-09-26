@@ -1,20 +1,23 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Scientist from '../Scientist/Scientist';
-import'./Scientists.css'
+import'./Scientists.css';
+
+//fetch data from api and store in a state
 const Scientists = () => {
     const [scientists,setScientists]=useState([]);
-    const [cart,setCart]=useState([])
+    const [cart,setCart]=useState([]);
     useEffect(()=>{
         fetch('./api.json')
-        .then(res=>res.json())
-        .then(data=>setScientists(data))
+            .then(res=>res.json())
+            .then(data=>setScientists(data))
     },[]);
-    const addToCart=(scientist)=>{
-        const newScientist=[...cart,scientist]
-        setCart(newScientist)
 
-    }
+    const addToCart=(scientist)=>{
+        const newScientist=[...cart,scientist];
+        setCart(newScientist);
+    };
+    
     return (
         <div id="container">
             <div className="container">
