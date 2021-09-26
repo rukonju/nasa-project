@@ -17,7 +17,7 @@ const Header = () => {
                 </div>
             </nav>
             <div className="heading">
-                <h1>Nasa <span>Project Managment Team</span></h1>
+                <h1>Nasa <span>Build your science project</span></h1>
                 <h3>Are you looking for <span>big brain</span> to solve your problems. Hire peoples  who perfect for your project.</h3>
                 <h1>Total Budget: 100 Millions</h1>
             </div>
