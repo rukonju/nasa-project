@@ -19,12 +19,12 @@ div img{
 }
 
 .sci-info button{
-    padding: 4px 8px;
-    border: 1px solid blue;
+    padding: 4px 10px;
+    border: 2px solid rgb(0, 0, 134);
     border-radius: 5px;
     font-size: 20px;
-    color: whitesmoke;
-    background-color: blue;
+    color: rgb(159, 171, 236);
+    background-color: rgb(6, 6, 126);
     outline: none;
     cursor: pointer;
 }
