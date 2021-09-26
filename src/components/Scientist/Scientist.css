@@ -1,0 +1,42 @@
+div img{
+    border-radius: 100px;
+}
+.single-sci{
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background: rgba(124, 143, 252, 0.9);
+
+}
+.single-sci p{
+    color: black;
+    padding: 2px;
+    margin: 2px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sci-info button{
+    padding: 4px 8px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: blue;
+    outline: none;
+    cursor: pointer;
+}
+.sci-info button:hover{
+    background: rgba(116, 115, 115, 0);
+    color: darkblue;
+}
+.icon{
+    margin-top: 16px;
+}
+.icon span{
+    font-size: 40px;
+    color: darkblue;
+    cursor: pointer;
+}
+.icon span:hover{
+    color: rgb(2, 65, 184);
+}

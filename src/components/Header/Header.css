@@ -1,6 +1,4 @@
-header{
-    background-image: url(https://www.chem-map.com/wp-content/uploads/2019/03/iStock-1018336186-2000px.jpg);
-}
+
 nav{
     background-color: rgba(0, 38, 255, 0.5);
     display: flex;
@@ -29,9 +27,9 @@ nav{
 .heading{
     text-align: center;
     padding: 5px;
-    background-color: rgba(0, 0, 255, 0.2);
+    background-color: rgba(82, 82, 253, 0.842);
     margin: auto;
     width: 85%;
     border-radius: 5px;
-    color: rgba(255, 248, 220, 0.801);
+    color: rgb(31, 1, 139);
 }
